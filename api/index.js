@@ -49,7 +49,6 @@ app.get("/generatePDF", (req, res, next) => {
         // Envoyer le pdf     
         res.setHeader('Content-disposition', 'attachment; filename=attestation-'+creationDate+'_'+creationHour+'.pdf');
         res.set('Content-Type', 'text/pdf');
-        console.log(pdf)
         res.send(toBuffer(pdf));
     },
     () => {
