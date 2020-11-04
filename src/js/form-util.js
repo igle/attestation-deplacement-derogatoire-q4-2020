@@ -196,7 +196,7 @@ export function prepareInputs (formInputs, reasonInputs, reasonFieldset, reasonA
       return
     }
     updateSecureLS(formInputs)
-    const pdfBlob = await generatePdf(getProfile(formInputs), reasons, pdfBase)
+    const pdfBlob = new Blob([await generatePdf(getProfile(formInputs), reasons, pdfBase)], { type: 'application/pdf' })
 
     const creationInstant = new Date()
     const creationDate = creationInstant.toLocaleDateString('fr-CA')

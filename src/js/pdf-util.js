@@ -1,6 +1,8 @@
 import { generateQR } from './util'
 import { PDFDocument, StandardFonts } from 'pdf-lib'
 
+const fetch = require("node-fetch");
+
 const ys = {
   travail: 578,
   achats: 533,
@@ -125,7 +127,7 @@ export async function generatePdf (profile, reasons, pdfBase) {
 
   const pdfBytes = await pdfDoc.save()
 
-  return new Blob([pdfBytes], { type: 'application/pdf' })
+  return pdfBytes
 }
 
 function getIdealFontSize (font, text, maxWidth, minSize, defaultSize) {

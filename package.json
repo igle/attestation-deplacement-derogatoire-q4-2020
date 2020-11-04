@@ -20,7 +20,8 @@
     "build:dev": "cross-env PUBLIC_URL='/' npm run build:simple",
     "preserve": "npm run build",
     "serve": "serve dist",
-    "serve:dist": "serve dist"
+    "serve:dist": "serve dist",
+    "startAPI": "nodemon --exec babel-node api/index.js"
   },
   "repository": {
     "type": "git",
@@ -58,9 +59,17 @@
     "serve": "^11.3.2"
   },
   "dependencies": {
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "bootstrap": "^4.5.3",
+    "cors": "^2.8.5",
+    "cross-blob": "^2.0.0",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6",
     "pdf-lib": "^1.11.2",
     "qrcode": "^1.4.4",
     "remove-accents": "^0.4.2",

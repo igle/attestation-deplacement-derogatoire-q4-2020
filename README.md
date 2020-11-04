@@ -31,6 +31,56 @@ Et visiter http://localhost:5000
 
 Le code à déployer sera le contenu du dossier `dist`
 
+## API
+
+### Requete url
+
+Parametre dans l’url : 
+
+- firstname
+
+- lastname 
+
+- birthday 
+
+- placeofbirth 
+
+- address
+
+- city 
+
+- datesortie 
+
+- heuresortie 
+
+- zipcode 
+
+- reasons
+
+### Raccourcis (APPLE)
+
+### PRÉAMBULE
+
+Les raccourcis se basent sur un contact dans votre télèphone. Pour fonctionner correctement, le contact doit avoir : 
+
+- Prénom 
+
+- Nom 
+
+- 1 Adresse 
+
+- Date Anniversaire 
+
+- url (http://VilleDeNaissance)
+
+![imgREADME/exempleContact.jpg](imgREADME/exempleContact.jpg)
+
+### COVID-19 ATTESTATION
+
+Le raccourcis “COVID-19 ATTESTATION” permet de génerer le pdf de l’attestation de déplacement dérogatoire du ministère de l’intérieur.
+
+- [COVID-19 ATTESTATION](https://www.icloud.com/shortcuts/950d5fbbe1d24d17abba63cf5672b09e)
+
 ## Crédits
 
 Ce projet a été réalisé à partir d'un fork du dépôt [deplacement-covid-19](https://github.com/nesk/deplacement-covid-19) de lui-même réalisé à partir d'un fork du dépôt [covid-19-certificate](https://github.com/nesk/covid-19-certificate) de [Johann Pardanaud](https://github.com/nesk).
