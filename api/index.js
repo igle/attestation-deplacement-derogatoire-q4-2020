@@ -61,7 +61,6 @@ app.listen(PORT, () => {
      console.log('app is listening to port '+PORT);
 })
 
-
 // function de génération du pdf async/pdf
 async function getPDFAwait(profile, reasons, pdf) {
     return await generatePdf(profile, reasons, pdf);
