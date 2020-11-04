@@ -79,7 +79,7 @@ Les raccourcis se basent sur un contact dans votre télèphone. Pour fonctionner
 
 Le raccourcis “COVID-19 ATTESTATION” permet de génerer le pdf de l’attestation de déplacement dérogatoire du ministère de l’intérieur.
 
-- [COVID-19 ATTESTATION](https://www.icloud.com/shortcuts/950d5fbbe1d24d17abba63cf5672b09e)
+- [COVID-19 ATTESTATION](https://www.icloud.com/shortcuts/f00551b095d94208b430731b2ab19f69)
 
 ## Crédits
 
