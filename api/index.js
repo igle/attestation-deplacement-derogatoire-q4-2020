@@ -3,6 +3,7 @@ const app = express();
 
 const PUBLIC_URL_PDF = 'https://github.com/LAB-MI/attestation-deplacement-derogatoire-q4-2020/raw/main/src/certificate.pdf';
 const REASONS = ['travail', 'achats', 'sante', 'famille', 'handicap', 'sport_animaux', 'convocation', 'missions', 'enfants'];
+const PORT  = process.env.PORT || 5000;
 
 import dateFormat from 'dateformat';
 
@@ -56,8 +57,8 @@ app.get("/generatePDF", (req, res, next) => {
     });
 });
 
-app.listen(5000, () => {
-     console.log(`app is listening to port 5000`);
+app.listen(PORT, () => {
+     console.log('app is listening to port '+PORT);
 })
 
 
