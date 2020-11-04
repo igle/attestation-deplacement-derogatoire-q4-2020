@@ -2,7 +2,7 @@
   "name": "attestation-deplacement-derogatoire-q4-2020",
   "version": "1.0.7",
   "description": "Générateur d'attestation de déplacement dérogatoire'",
-  "main": "certificate.js",
+  "main": "api/index.js",
   "scripts": {
     "start": "nodemon --exec babel-node api/index.js"
   },
@@ -57,33 +57,5 @@
     "qrcode": "^1.4.4",
     "remove-accents": "^0.4.2",
     "secure-ls": "^1.2.6"
-  },
-  "browserslist": [
-    "last 5 versions"
-  ],
-  "reactSnap": {
-    "source": "dist",
-    "minifyHtml": {
-      "collapseWhitespace": false,
-      "removeComments": false
-    },
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ]
-  },
-  "cache": {
-    "globPatterns": [
-      "**/*.{html,js,css,jpg,png,pdf,svg,eot,ttf,woff,woff2}"
-    ],
-    "disablePlugin": false,
-    "inDev": true,
-    "strategy": "default",
-    "clearDist": false,
-    "templatedURLs": {
-      "./": [
-        "index.html"
-      ]
-    }
   }
 }
