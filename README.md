@@ -14,27 +14,27 @@ Les raccourcis se basent sur un contact dans votre téléphone. Pour fonctionner
 - Date Anniversaire
 - url (http://VilleDeNaissance)
 
-![imgREADME/exempleContact.jpg](imgREADME/exempleContact.jpg)
+![imgREADME/exempleContact.jpg](imgREADME/exempleContact.jpg =250x)
 
 ### Les Raccourcis
 
 Les raccourcis permettent de générer le PDF de l’attestation de déplacement dérogatoire du ministère de l’intérieur. Différentes versions existent. Cliquer sur le lien en dessous du gif pour télécharger le raccourcis.
 
-![imgREADME/covid19Attestation.gif](imgREADME/covid19Attestation.gif)
+![imgREADME/covid19Attestation.gif](imgREADME/covid19Attestation.gif =250x)
 
-[COVID-19 ATTESTATION](https://www.icloud.com/shortcuts/041144d8623d41d39fcb4d4a2ff05be7)
+[COVID-19 ATTESTATION](https://www.icloud.com/shortcuts/041144d8623d41d39fcb4d4a2ff05be7 =250x)
 
-![imgREADME/GenereMoiUneAttestationPourLeTravail.gif](imgREADME/GenereMoiUneAttestationPourLeTravail.gif)
+![imgREADME/GenereMoiUneAttestationPourLeTravail.gif](imgREADME/GenereMoiUneAttestationPourLeTravail.gif =250x)
 
-[Génère-moi une attestation pour le travail](https://www.icloud.com/shortcuts/574d2abec8364ce8826856a0ae574df4)
+[Génère-moi une attestation pour le travail](https://www.icloud.com/shortcuts/574d2abec8364ce8826856a0ae574df4 =250x)
 
-![imgREADME/GenereMoiUneAttestationPourLesAchats.gif](imgREADME/GenereMoiUneAttestationPourLesAchats.gif)
+![imgREADME/GenereMoiUneAttestationPourLesAchats.gif](imgREADME/GenereMoiUneAttestationPourLesAchats.gif =250x)
 
-[Génère-moi une attestation pour les achats](https://www.icloud.com/shortcuts/d92a0e4abb6945b1925fa741ff510de1)
+[Génère-moi une attestation pour les achats](https://www.icloud.com/shortcuts/d92a0e4abb6945b1925fa741ff510de1 =250x)
 
 Il est possible d'activer les raccourcis ("Génère-moi une attestation pour le travail" et"Génère-moi une attestation pour les achats") directement avec Siri.
 
-![imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif](imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif)
+![imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif](imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif =250x)
 
 ## API
 
@@ -53,7 +53,7 @@ Parametre dans l’url :
 
 api url = [https://covid19apiattestationq42020.herokuapp.com](https://covid19apiattestationq42020.herokuapp.com/)/generatePDF?
 
-[Liste des raisons](https://www.notion.so/0701075b75b944ac8ac05070dca36003)
+
 
 ## Développer
 
