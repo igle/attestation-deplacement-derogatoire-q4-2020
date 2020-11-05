@@ -14,27 +14,30 @@ Les raccourcis se basent sur un contact dans votre téléphone. Pour fonctionner
 - Date Anniversaire
 - url (http://VilleDeNaissance)
 
-![imgREADME/exempleContact.jpg](imgREADME/exempleContact.jpg | width=100)
+<img width="300" alt="exempleContact" src="imgREADME/exempleContact.jpg">
 
 ### Les Raccourcis
 
 Les raccourcis permettent de générer le PDF de l’attestation de déplacement dérogatoire du ministère de l’intérieur. Différentes versions existent. Cliquer sur le lien en dessous du gif pour télécharger le raccourcis.
 
-![imgREADME/covid19Attestation.gif](imgREADME/covid19Attestation.gif | width=100)
+<img width="200" alt="covid19Attestation" src="imgREADME/covid19Attestation.gif">
 
 [COVID-19 ATTESTATION](https://www.icloud.com/shortcuts/041144d8623d41d39fcb4d4a2ff05be7)
 
-![imgREADME/GenereMoiUneAttestationPourLeTravail.gif](imgREADME/GenereMoiUneAttestationPourLeTravail.gif | width=100)
+
+<img width="200" alt="GenereMoiUneAttestationPourLeTravail" src="imgREADME/GenereMoiUneAttestationPourLeTravail.gif">
 
 [Génère-moi une attestation pour le travail](https://www.icloud.com/shortcuts/574d2abec8364ce8826856a0ae574df4)
 
-![imgREADME/GenereMoiUneAttestationPourLesAchats.gif](imgREADME/GenereMoiUneAttestationPourLesAchats.gif | width=100)
+<img width="200" alt="GenereMoiUneAttestationPourLesAchats" src="imgREADME/GenereMoiUneAttestationPourLesAchats.gif">
 
 [Génère-moi une attestation pour les achats](https://www.icloud.com/shortcuts/d92a0e4abb6945b1925fa741ff510de1)
 
 Il est possible d'activer les raccourcis ("Génère-moi une attestation pour le travail" et"Génère-moi une attestation pour les achats") directement avec Siri.
 
-![imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif](imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif | width=100)
+<img width="260" alt="SiriGenereMoiUneAttestationPourLeTravail" src="imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif">
+
+
 
 ## API
 
