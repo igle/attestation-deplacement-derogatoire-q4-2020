@@ -14,27 +14,27 @@ Les raccourcis se basent sur un contact dans votre téléphone. Pour fonctionner
 - Date Anniversaire
 - url (http://VilleDeNaissance)
 
-![README%20e49317a2c2554f5999830a36f6fb96cf/exempleContact.jpg](README%20e49317a2c2554f5999830a36f6fb96cf/exempleContact.jpg)
+![imgREADME/exempleContact.jpg](imgREADME/exempleContact.jpg)
 
 ### Les Raccourcis
 
 Les raccourcis permettent de générer le PDF de l’attestation de déplacement dérogatoire du ministère de l’intérieur. Différentes versions existent. Cliquer sur le lien en dessous du gif pour télécharger le raccourcis.
 
-![README%20e49317a2c2554f5999830a36f6fb96cf/covid19Attestation.gif](README%20e49317a2c2554f5999830a36f6fb96cf/covid19Attestation.gif)
+![imgREADME/covid19Attestation.gif](imgREADME/covid19Attestation.gif)
 
 [COVID-19 ATTESTATION](https://www.icloud.com/shortcuts/041144d8623d41d39fcb4d4a2ff05be7)
 
-![README%20e49317a2c2554f5999830a36f6fb96cf/GenereMoiUneAttestationPourLeTravail.gif](README%20e49317a2c2554f5999830a36f6fb96cf/GenereMoiUneAttestationPourLeTravail.gif)
+![imgREADME/GenereMoiUneAttestationPourLeTravail.gif](imgREADME/GenereMoiUneAttestationPourLeTravail.gif)
 
 [Génère-moi une attestation pour le travail](https://www.icloud.com/shortcuts/574d2abec8364ce8826856a0ae574df4)
 
-![README%20e49317a2c2554f5999830a36f6fb96cf/GenereMoiUneAttestationPourLesAchats.gif](README%20e49317a2c2554f5999830a36f6fb96cf/GenereMoiUneAttestationPourLesAchats.gif)
+![imgREADME/GenereMoiUneAttestationPourLesAchats.gif](imgREADME/GenereMoiUneAttestationPourLesAchats.gif)
 
 [Génère-moi une attestation pour les achats](https://www.icloud.com/shortcuts/d92a0e4abb6945b1925fa741ff510de1)
 
 Il est possible d'activer les raccourcis ("Génère-moi une attestation pour le travail" et"Génère-moi une attestation pour les achats") directement avec Siri.
 
-![README%20e49317a2c2554f5999830a36f6fb96cf/SiriGenereMoiUneAttestationPourLeTravail.gif](README%20e49317a2c2554f5999830a36f6fb96cf/SiriGenereMoiUneAttestationPourLeTravail.gif)
+![imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif](imgREADME/SiriGenereMoiUneAttestationPourLeTravail.gif)
 
 ## API
 
