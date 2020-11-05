@@ -54,9 +54,12 @@ Parametre dans l’url :
 - heuresortie="HH:mm"
 - reasons=""
 
-api url = [https://covid19apiattestationq42020.herokuapp.com](https://covid19apiattestationq42020.herokuapp.com/)/generatePDF?
+API Url = https://covid19apiattestationq42020.herokuapp.com/generatePDF?
 
-
+API Url exemple
+```
+https://covid19apiattestationq42020.herokuapp.com/generatePDF?firstname=Camille&lastname=Dupont&birthday=01/01/1970&address=999%20Avenue%20De%20France%0A75001%20Paris%0AFrance&datesortie=05/11/2020&heuresortie=20:29&reasons=travail&placeofbirth=http://Paris
+```
 
 ## Développer
 
