@@ -43,7 +43,7 @@ app.get("/generatePDF", (req, res, next) => {
 
     // Generer l'attestation
     getPDFAwait(profile, req.query.reasons, PUBLIC_URL_PDF).then(function (pdf) {  
-        const creationInstant = new Date().toLocaleString('fr-FR')
+        const creationInstant = new Date().toLocaleString("fr-FR", {timeZone: "Europe/Paris"});
         const creationDate = dateFormat(creationInstant, 'isoDate') // 2020-11-03
         const creationHour = dateFormat(creationInstant, 'HH-MM') // 12-42
         // Envoyer le pdf     
