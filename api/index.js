@@ -1,7 +1,7 @@
 import express from 'express';
 const app = express();
 
-const PUBLIC_URL_PDF = 'https://github.com/LAB-MI/attestation-deplacement-derogatoire-q4-2020/raw/main/src/certificate.pdf';
+const PUBLIC_URL_PDF = 'https://github.com/igle/attestation-deplacement-derogatoire-q4-2020/raw/API/src/certificate.pdf';
 const REASONS = ['travail', 'achats', 'sante', 'famille', 'handicap', 'sport_animaux', 'convocation', 'missions', 'enfants'];
 
 import dateFormat from 'dateformat';
