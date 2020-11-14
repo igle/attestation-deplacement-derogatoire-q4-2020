@@ -3,6 +3,7 @@ const app = express();
 
 const PUBLIC_URL_PDF = 'https://github.com/igle/attestation-deplacement-derogatoire-q4-2020/raw/API/src/certificate.pdf';
 const REASONS = ['travail', 'achats', 'sante', 'famille', 'handicap', 'sport_animaux', 'convocation', 'missions', 'enfants'];
+const PORT  = process.env.PORT || 5000;
 
 import dateFormat from 'dateformat';
 
@@ -42,13 +43,12 @@ app.get("/generatePDF", (req, res, next) => {
 
     // Generer l'attestation
     getPDFAwait(profile, req.query.reasons, PUBLIC_URL_PDF).then(function (pdf) {  
-        const creationInstant = new Date()
-        const creationDate = dateFormat(creationInstant, 'yyyy-mm-dd') // 2020-11-03
+        const creationInstant = new Date().toLocaleString("fr-FR", {timeZone: "Europe/Paris"});
+        const creationDate = dateFormat(creationInstant, 'isoDate') // 2020-11-03
         const creationHour = dateFormat(creationInstant, 'HH-MM') // 12-42
         // Envoyer le pdf     
         res.setHeader('Content-disposition', 'attachment; filename=attestation-'+creationDate+'_'+creationHour+'.pdf');
         res.set('Content-Type', 'text/pdf');
-        console.log(pdf)
         res.send(toBuffer(pdf));
     },
     () => {
@@ -56,10 +56,9 @@ app.get("/generatePDF", (req, res, next) => {
     });
 });
 
-app.listen(5000, () => {
-     console.log(`app is listening to port 5000`);
+app.listen(PORT, () => {
+     console.log('app is listening to port '+PORT);
 })
-
 
 // function de génération du pdf async/pdf
 async function getPDFAwait(profile, reasons, pdf) {
